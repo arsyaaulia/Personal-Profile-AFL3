@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Profile</title>
+  <title>Arsya | Fullstack Dev</title>
   <script  src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -11,168 +11,204 @@
             extend: {
                 colors: {
                     'text': {
-                    50: '#110f09',
-                    100: '#211f12',
-                    200: '#423e24',
-                    300: '#635d36',
-                    400: '#857b47',
-                    500: '#a69a59',
-                    600: '#b8ae7a',
-                    700: '#c9c39c',
-                    800: '#dbd7bd',
-                    900: '#edebde',
-                    950: '#f6f5ee',
-                    960: '#fbfbf8',
+                    50: '#0a0a10',
+                    100: '#14141f',
+                    200: '#27273f',
+                    300: '#3b3b5e',
+                    400: '#4f4f7d',
+                    500: '#62629d',
+                    600: '#8282b0',
+                    700: '#a1a1c4',
+                    800: '#c0c0d8',
+                    900: '#e0e0eb',
+                    950: '#efeff5',
                     },
                     'background': {
-                    50: '#101009',
-                    100: '#202013',
-                    200: '#414125',
-                    300: '#616138',
-                    400: '#82824a',
-                    500: '#a2a25d',
-                    600: '#b5b57d',
-                    700: '#c7c79e',
-                    800: '#dadabe',
-                    900: '#ececdf',
-                    950: '#f6f6ef',
+                    50: '#090a11',
+                    100: '#111422',
+                    200: '#222844',
+                    300: '#333c66',
+                    400: '#445088',
+                    500: '#5563aa',
+                    600: '#7783bb',
+                    700: '#99a2cc',
+                    800: '#bbc1dd',
+                    900: '#dde0ee',
+                    950: '#eeeff6',
+                    960: '#f3f4f9'
                     },
                     'primary': {
-                    50: '#060d13',
-                    100: '#0d1926',
-                    200: '#19324d',
-                    300: '#264b73',
-                    400: '#336499',
-                    500: '#407dbf',
-                    600: '#6697cc',
-                    700: '#8cb1d9',
-                    800: '#b3cbe6',
-                    900: '#d9e5f2',
-                    950: '#ecf2f9',
+                    50: '#070913',
+                    100: '#0e1125',
+                    200: '#1c234a',
+                    300: '#293470',
+                    400: '#374595',
+                    500: '#4556ba',
+                    600: '#6a78c8',
+                    700: '#8f9ad6',
+                    800: '#b5bce3',
+                    900: '#daddf1',
+                    950: '#eceef8',
                     },
                     'secondary': {
-                    50: '#091110',
-                    100: '#122120',
-                    200: '#244241',
-                    300: '#366361',
-                    400: '#478582',
-                    500: '#59a6a2',
-                    600: '#7ab8b5',
-                    700: '#9cc9c7',
-                    800: '#bddbda',
-                    900: '#deedec',
-                    950: '#eef6f6',
+                    50: '#060814',
+                    100: '#0b1028',
+                    200: '#161f50',
+                    300: '#222f77',
+                    400: '#2d3e9f',
+                    500: '#384ec7',
+                    600: '#6071d2',
+                    700: '#8895dd',
+                    800: '#afb8e9',
+                    900: '#d7dcf4',
+                    950: '#ebedf9',
                     },
                     'accent': {
-                    50: '#090c11',
-                    100: '#121821',
-                    200: '#233043',
-                    300: '#354964',
-                    400: '#466186',
-                    500: '#5879a7',
-                    600: '#7994b9',
-                    700: '#9bafca',
-                    800: '#bcc9dc',
-                    900: '#dee4ed',
-                    950: '#eef2f6',
+                    50: '#040715',
+                    100: '#090e2a',
+                    200: '#121c54',
+                    300: '#1b2a7e',
+                    400: '#2438a8',
+                    500: '#2d45d2',
+                    600: '#576bdb',
+                    700: '#8190e4',
+                    800: '#abb5ed',
+                    900: '#d5daf6',
+                    950: '#eaecfb',
                     },
                 },
-
             }
         }
     }
   </script>
   <link href="src/output.css" rel="stylesheet">
 </head>
-<body class="bg-background-960 text-gray-800">
+
+<body>
 
   <!-- Header -->
   <header class="bg-primary-100 shadow-md">
     <div class="container mx-auto px-4 py-4 flex justify-between items-center text-[#fefefe]">
-      <h1 class="text-2xl font-bold">MyProfile</h1>
+
+      <span class="text-2xl font-bold bg-gradient-to-r from-primary-700 via-secondary-800 to-accent-800 bg-clip-text text-transparent [text-shadow:_0_0_20px_#c0c0d8]">
+        Arsya<span class="text-text-950">.txt</span>
+      </span>
       <nav class="space-x-4">
-        <a href="#profile" class="text-sm hover:text-blue-500 hover:bg-white">Profile</a>
-        <a href="#skills" class="text-sm hover:text-blue-500">Skills</a>
-        <a href="#portfolio" class="text-sm hover:text-blue-500">Mini Portfolio</a>
-        <a href="#contact" class="text-sm hover:text-blue-500">Contact</a>
+        <a href="#profile" class="text-sm hover:text-accent-800 ">Profile</a>
+        <a href="#skills" class="text-sm hover:text-accent-800">Skills</a>
+        <a href="#Project" class="text-sm hover:text-accent-800">Mini Project</a>
+        <a href="#contact" class="text-sm hover:text-accent-800">Contact</a>
       </nav>
     </div>
   </header>
 
   <!-- Profile Section -->
-  <section id="profile" class="container mx-auto px-2 py-12 flex flex-col items-center text-center ">
+  <section id="profile" class="mx-auto py-12 flex flex-col items-center text-center bg-gradient-to-r from-primary-900 via-secondary-950 to-accent-900 shadow-md">
     <img src="Foto Profile.png" alt="Profile Photo" class="rounded-full w-32 h-32 mb-6">
-    <h2 class="text-3xl font-semibold mb-2">Arsya Aulia Amira</h2>
-    <p class="text-[#191a3e] max-w-md ">Hi! I'm an Informatics student at Ciputra University Makassar. I'm passionate about both technology and creativity, and I'm excited to keep growing and combining both skills to make a real impact.</p>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="bg-primary-900 py-12">
-    <div class="container mx-auto px-4">
-      <h2 class="text-2xl font-bold text-center mb-8">Skills</h2>
-
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-center">
-
-            <div class="p-6 rounded-xl shadow-md bg-white">
-                <div class="flex items-center mb-4">
-                  <h3 class="text-xl font-bold">Bootstrap</h3>
-                </div>
-                <div class="w-full bg-[#e6edf5] rounded-full h-2.5">
-                  <div class=" bg-primary-300 h-2.5 rounded-full" style="width: 10%"></div>
-                </div>
-            </div>
-
-            <div class="p-6 rounded-xl shadow-md bg-white">
-                <div class="flex items-center mb-4">
-                  <h3 class="text-xl font-bold">Canva</h3>
-                </div>
-                <div class="w-full bg-[#e6edf5] rounded-full h-2.5">
-                  <div class=" bg-[#191a3e] h-2.5 rounded-full" style="width: 75%"></div>
-                </div>
-            </div>
-          
-            <div class="p-6 rounded-xl shadow-md bg-white">
-                <div class="flex items-center mb-4">
-                  <h3 class="text-xl font-bold">Illustrator</h3>
-                </div>
-                <div class="w-full bg-[#e6edf5] rounded-full h-2.5">
-                  <div class=" bg-[#191a3e] h-2.5 rounded-full" style="width: 5%"></div>
-                </div>
-            </div>
-
-            <div class="p-6 rounded-xl shadow-md bg-white">
-                <div class="flex items-center mb-4">
-                  <h3 class="text-xl font-bold">HTML & CSS</h3>
-                </div>
-                <div class="w-full bg-[#e6edf5] rounded-full h-2.5">
-                  <div class=" bg-[#191a3e] h-2.5 rounded-full" style="width: 25%"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-  </section>
-
-  <!-- MINI PORTFOLIO -->
-  <section id="portfolio" class="py-12">
-    
-        <div class="container mx-auto px-4 items-center">
-            <h2 class="text-2xl font-bold text-center mb-5">Mini Portfolio</h2>
-            <p class="text-center">Saya memiliki</p>
-            <div>
-                Informatics Student Union
-            </div>
-
-        </div>
+    <span class="text-4xl font-bold mb-2">Hi! I'm <span class="bg-gradient-to-r from-primary-400 via-secondary-300 to-accent-300 bg-clip-text text-transparent [text-shadow:_0_0_30px_#abb5ed]">Arsya</span><span> 👋</span></span>
+    <span class="text-xl font-semibold mb-1">Fullstack Developer</span>
     
   </section>
+
+
+  <!-- About Me Section -->
+   <section id="about-me" class="py-6 my-10">
+        <div class="container mx-auto px-5 text-center "> 
+            <span class="text-3xl font-bold bg-gradient-to-r from-primary-400 via-secondary-300 to-accent-300 bg-clip-text text-transparent [text-shadow:_0_0_30px_#abb5ed]">About Me</span>
+
+            <div class="text-justify bg-primary-950  my-5 py-4 border-[0.5px] border-secondary-800 rounded-xl p-5 shadow-md mx-auto max-w-3xl items-center">
+                <span class="text-2xl font-bold bg-gradient-to-r from-primary-200 to-primary-300 bg-clip-text text-transparent"><span></span>Who Am I?</span>
+
+                <hr class="border-t-2 border-primary-200 opacity-50 my-2">
+    
+                <p>Hi! I'm Arsya Aulia Amira, a 19-year-old informatics student currently learning and exploring fullstack development. I only began coding in college, so I'm still navigating through trials, errors, and plenty of learning moments.</p>
+                <br>
+                <p>When I need a break, I turn to graphic design — a hobby I've enjoyed since I was 14. I may not be super passionate about it, but it's my go-to space to refresh and reset, even when it occasionally feels draining.</p>
+    
+                <div class="grid md:grid-cols-1 my-3 gap-2 grid-cols-1">
+    
+                    <div class="flex flex-wrap md:flex-row gap-2 my-3 ">
+                        <!-- Badge 1 -->
+                        <span class="inline-flex items-center px-3 py-1 bg-gradient-to-r from-secondary-600 to-accent-700 rounded-full text-sm font-semibold text-white whitespace-nowrap">
+                          💻 Informatics Student
+                        </span>
+                        
+                        <!-- Badge 2 -->
+                        <span class="inline-flex items-center px-3 py-1 bg-gradient-to-r from-secondary-600 to-accent-700 rounded-full text-sm font-semibold text-white whitespace-nowrap">
+                          🎨 Creative Explorer
+                        </span>
+                      
+                        <!-- Badge 3 -->
+                        <span class="inline-flex items-center px-3 py-1 bg-gradient-to-r from-secondary-600 to-accent-700 rounded-full text-sm font-semibold text-white whitespace-nowrap">
+                          ☕️ Vanilla Latte Addict :D
+                        </span>
+                      </div>
+                      
+                </div>
+                
+            </div>
+        </div>   
+   </section>
+
+   <!-- Skill I'm Building -->
+   <section id="skills" class="py-6 my-8">
+        <div class="container mx-auto px-5 text-center">
+
+            <span class="text-3xl font-bold bg-gradient-to-r from-primary-400 via-secondary-300 to-accent-300 bg-clip-text text-transparent [text-shadow:_0_0_30px_#abb5ed]">Skills I'm Building</span>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
+
+                <div class="p-6 rounded-xl shadow-md bg-primary-950 border-[0.5px] border-secondary-800">
+                    <div class="text-justify mb-4">
+                        <span class="text-xl font-bold bg-gradient-to-r from-primary-200 to-primary-300 bg-clip-text text-transparent"><span></span>Graphic Design</span>
+                        <p class="text-sm opacity-80 mt-1">Canva, Adobe Illustrator, Figma</p>
+                    </div>
+                    <div class="w-full bg-primary-900 rounded-full h-2.5">
+                        <div class=" bg-gradient-to-r from-primary-600 via-secondary-600 to-accent-700 h-2.5 rounded-full" style="width: 45%"></div>
+                    </div>
+                </div>
+
+                <div class="p-6 rounded-xl shadow-md bg-primary-950 border-[0.5px] border-secondary-800">
+                    <div class="text-justify mb-4">
+                        <span class="text-xl font-bold bg-gradient-to-r from-primary-200 to-primary-300 bg-clip-text text-transparent"><span></span>Frontend Development</span>
+                        <p class="text-sm opacity-80 mt-1">HTML, CSS, Bootstrap, Tailwind, JS</p>
+                    </div>
+                    <div class="w-full bg-primary-900 rounded-full h-2.5">
+                        <div class=" bg-gradient-to-r from-primary-600 via-secondary-600 to-accent-700 h-2.5 rounded-full" style="width: 20%"></div>
+                    </div>
+                </div>
+
+                <div class="p-6 rounded-xl shadow-md bg-primary-950 border-[0.5px] border-secondary-800">
+                    <div class="text-justify mb-4">
+                        <span class="text-xl font-bold bg-gradient-to-r from-primary-200 to-primary-300 bg-clip-text text-transparent"><span></span>Backend Development</span>
+                        <p class="text-sm opacity-80 mt-1">Python, Java</p>
+                    </div>
+                    <div class="w-full bg-primary-900 rounded-full h-2.5">
+                        <div class=" bg-gradient-to-r from-primary-600 via-secondary-600 to-accent-700 h-2.5 rounded-full" style="width: 10%"></div>
+                    </div>
+                </div>
+
+                <div class="p-6 rounded-xl shadow-md bg-primary-950 border-[0.5px] border-secondary-800">
+                    <div class="text-justify mb-4">
+                        <span class="text-xl font-bold bg-gradient-to-r from-primary-200 to-primary-300 bg-clip-text text-transparent"><span></span>Database</span>
+                        <p class="text-sm opacity-80 mt-1">SQL</p>
+                    </div>
+                    <div class="w-full bg-primary-900 rounded-full h-2.5">
+                        <div class=" bg-gradient-to-r from-primary-600 via-secondary-600 to-accent-700 h-2.5 rounded-full" style="width: 5%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+   </section>
 
   <!-- Footer -->
-  <footer id="contact" class="bg-[#9a7c72] text-gray-200 py-6">
+  <footer id="contact" class="bg-primary-100 text-gray-200 py-6">
     <div class="container mx-auto px-4 text-center">
       <p>Connect with me:</p>
       <div class="flex justify-center space-x-4 mt-2">
-        <a href="https://www.instagram.com/arsyaauliia/" class="hover:text-blue-400">Instagram</a>
-        <a href="https://github.com/arsyaaulia" class="hover:text-blue-400">GitHub</a>
+        <a href="https://www.instagram.com/arsyaauliia/" class="hover:text-accent-800">Instagram</a>
+        <a href="https://github.com/arsyaaulia" class="hover:text-accent-800">GitHub</a>
       </div>
       <p class="text-sm mt-4">&copy; 2025 Arsya Aulia Amira. All rights reserved.</p>
     </div>
